@@ -5,7 +5,7 @@ This project implements an autonomous pipeline for converting unstructured audio
 
 ---
 
-## 2. 2. Technical Architecture Design
+## 2. Technical Architecture Design
 The system follows a Distributed Multi-Agent Architecture designed to separate concerns between data ingestion and semantic reasoning.
 1. **Compute Distribution:** The system utilizes a local-compute model for *Automated Speech Recognition (ASR)* to maintain data privacy, while leveraging high-speed cloud-based inference for semantic analysis.
 2. **Modular Logic:** Each stage of the pipeline is handled by an independent Large Language Model (LLM) instance with a constrained technical persona. This prevents *Prompt Dilution* and ensures that the analytical weights of the model are focused on one specific domain (e.g., risk analysis vs. structural modeling) at a time.
@@ -61,7 +61,7 @@ The system employs a pipeline of five specialized agents:
 
 ### Execution
 
-1 **Run the application via Streamlit:**
+1. **Run the application via Streamlit:**
     ```bash
     streamlit run app.py
 
