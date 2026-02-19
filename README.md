@@ -74,9 +74,9 @@ Output Samples: Located in output/. Includes generated Markdown files and a samp
 
 ## 7. Technical Stack
 
-UI Framework: Streamlit
-Workflow Management: LangChain (LCEL)
-Speech Processing: OpenAI Whisper
-Inference Engine: Llama 3.3 via Groq LPU
-Diagram Engine: Graphviz
-PDF Generation: FPDF Engine
+1. **UI Framework:** Streamlit
+2. **Workflow Management:** LangChain (LCEL)
+3. **Speech Processing:** OpenAI Whisper
+4. **Inference Engine:** Llama 3.3 via Groq LPU
+5. **Diagram Engine:** Graphviz
+6. **PDF Generation:** FPDF Engine
